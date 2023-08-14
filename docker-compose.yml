@@ -6,4 +6,4 @@ services:
       - "${NGINX_PORT}:80"
     volumes:
       - "${NGINX_HOST_DIR}:/usr/share/nginx/html"
-
+        #random comment
