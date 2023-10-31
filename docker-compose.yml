@@ -7,3 +7,5 @@ services:
     volumes:
       - "${NGINX_HOST_DIR}:/usr/share/nginx/html"
         #random comment
+    env_file:
+      - stack.env
