@@ -3,6 +3,6 @@ services:
   nginx:
     image: nginx:latest
     ports:
-      - "8092:80"
+      - "8093:80"
     volumes:
       - "./html:/usr/share/nginx/html"
