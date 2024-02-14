@@ -3,8 +3,6 @@ services:
   nginx:
     image: nginx:latest
     ports:
-      - "${NGINX_PORT}:80"
+      - "8092:80"
     volumes:
-      - "${NGINX_HOST_DIR}:/usr/share/nginx/html"
-    env_file:
-      - stack.env
+      - "./html:/usr/share/nginx/html"
