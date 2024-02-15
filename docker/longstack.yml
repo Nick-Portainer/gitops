@@ -1,5 +1,1 @@
-services:
-  app1:
-    image: perusha/mujoco-dopamine:latest
-  app2:
-    image: sagemathinc/cocalc:latest
+
