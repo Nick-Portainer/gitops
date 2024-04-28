@@ -1,2 +1,2 @@
 # gitops
-GitOps Repo for testing and breaking
+GitOps Repo for testing and breaking.
