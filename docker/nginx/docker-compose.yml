@@ -1,8 +1,9 @@
 version: '3'
 services:
   nginx:
-    image: nginx:latest
+    image: nginx:${VERSION}
     ports:
-      - "8094:80"
+      - "${PORT}:80"
     volumes:
       - "./html:/usr/share/nginx/html"
+    env_file: ./stack.env
